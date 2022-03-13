@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/css/sign-up.css" />
+  </head>
+  <body>
+    <div class="outer-div">
+      <p class="header">SIGN UP</p>
+      <form action="/users/sign-up" method="post">
+        <label class="label-field" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          class="input-field"
+          placeholder="Enter Name"
+          required
+        />
+        <label class="label-field" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          class="input-field"
+          placeholder="Eg. example@gmail.com"
+          required
+        />
+        <label class="label-field" for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="input-field"
+          placeholder="Enter Password"
+          required
+        />
+        <label class="label-field" for="confirmPassword"
+          >Confirm Password</label
+        >
+        <input
+          type="password"
+          name="confirmPassword"
+          class="input-field"
+          placeholder="Confirm Password"
+          required
+        />
+        <div class="button-div">
+          <input type="submit" class="submit-button" value="Sign Up" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

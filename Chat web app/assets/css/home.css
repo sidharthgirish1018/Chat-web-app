@@ -1,0 +1,11 @@
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.link {
+  padding: 20px;
+  font-size: 25px;
+}
